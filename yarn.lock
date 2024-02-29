@@ -1994,10 +1994,10 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-gram20-sdk@0.0.12:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/gram20-sdk/-/gram20-sdk-0.0.12.tgz#1ef6e78f765c5eb077097623560c82726b55592f"
-  integrity sha512-PG3ojaXw4WTtJcrpRECP2B9OxCPH+6F5tewIXm2s3qGT1fWWZ4k+rh+/auoJRDvHAqu3MGpngj49NUvLIB2IbA==
+gram20-sdk@0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/gram20-sdk/-/gram20-sdk-0.0.14.tgz#0ae1a278fb20de5dfb693eb2250e5aa128e4ba1a"
+  integrity sha512-GsbmQkrNoqbPo7B4LgvfczYH6psmby6VK25eHft5jsR5kmWWTBMADXZYcNnddZKbZCn1eIL5uWqRsphNQTPpog==
   dependencies:
     "@ton/core" "^0.56.1"
     "@ton/crypto" "^3.2.0"
