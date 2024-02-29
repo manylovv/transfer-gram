@@ -19,7 +19,11 @@ function App() {
   const sendTx = async (e: FormEvent) => {
     e.preventDefault();
 
-    const { payload, address: tokenAddress } = await getTransfer({
+    const {
+      payload,
+      address: tokenAddress,
+      stateInit,
+    } = await getTransfer({
       address: address,
       to: recipient,
       amount: amount,
@@ -32,6 +36,7 @@ function App() {
           address: tokenAddress,
           amount: '8000000',
           payload: payload,
+          stateInit: stateInit,
         },
       ],
       validUntil: Math.floor(Date.now() / 1000) + 60,
