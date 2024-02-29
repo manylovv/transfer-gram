@@ -5,16 +5,7 @@ import {
   useTonWallet,
 } from '@tonconnect/ui-react';
 import { getTransfer } from 'gram20-sdk/v2';
-import {
-  ElementRef,
-  FormEvent,
-  Fragment,
-  Ref,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from 'react';
+import { ElementRef, FormEvent, useEffect, useRef, useState } from 'react';
 
 function App() {
   const [tonConnectUI] = useTonConnectUI();
